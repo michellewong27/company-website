@@ -23,3 +23,46 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.menu{
+  display: flex;
+}
+
+.menu a {
+  color:#4a5057;
+  font-size: 16px;
+  margin: 0px 15px;
+  font-family: myriad pro;
+  font-weight: 600;
+}
+
+.menu img {
+  height: 18px;
+}
+
+.sign-in{
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #3d3d3e;
+  color: #3d3d3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: calibri;
+  font-weight: 700;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.sign-in:hover{
+  background-color: #4530c3;
+  color: #FFFFFF;
+  transition: all ease 0.3s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 60px;
+}
