@@ -117,3 +117,42 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.box-img01{
+  background-image: url("images/1.jpg");
+}
+.box-img02{
+  background-image: url("images/2.jpg");
+}
+.box-img03{
+  background-image: url("images/3.jpg");
+}
+.box-img04{
+  background-image: url("images/4.jpg");
+}
+.box-img05{
+  background-image: url("images/5.jpg");
+}
+.box-img06{
+  background-image: url("images/6.jpg");
+}
+
+.user-img01 {
+  background-image: url("images/img1.jpg");
+}
+.user-img02 {
+  background-image: url("images/img2.jpg");
+}
+.user-img03 {
+  background-image: url("images/img3.jpg");
+}
+
+.user-img04 {
+  background-image: url("images/img1.jpg");
+}
+.user-img05 {
+  background-image: url("images/img2.jpg");
+}
+.user-img06 {
+  background-image: url("images/img3.jpg");
+}
