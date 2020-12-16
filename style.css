@@ -68,6 +68,8 @@ nav {
 }
 
 .box {
+  /* side by side*/
+  float: left;
   width: 220px;
   height: 310px;
   border-radius: 5px;
@@ -155,4 +157,32 @@ nav {
 }
 .user-img06 {
   background-image: url("images/img3.jpg");
+}
+
+
+.g-heading span{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  background-color: #4530c3;
+}
+
+.graphic {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  width: 200px;
+  font-family: calibri;
+}
+
+.g-heading {
+  display: flex;
+  align-items: center;
+}
+
+.g-details{
+  font-size: 14px;
+  margin: 10px 0px;
+  color: #3d3d3e;
 }

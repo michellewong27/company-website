@@ -1,4 +1,4 @@
- $(document).ready(function() {
+  $(document).ready(function() {
     $('#autoWidth').lightSlider({
         autoWidth:true,
         loop:true,
