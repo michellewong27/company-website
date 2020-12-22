@@ -68,8 +68,6 @@ nav {
 }
 
 .box {
-  /* side by side*/
-  float: left;
   width: 220px;
   height: 310px;
   border-radius: 5px;
@@ -185,4 +183,41 @@ nav {
   font-size: 14px;
   margin: 10px 0px;
   color: #3d3d3e;
+}
+
+.g-heading p{
+  font-weight: bold;
+  font-size: 20px;
+  color: #3d3d3e;
+  margin: 0px 10px;
+  line-height: 25px;
+}
+
+.s-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-heading p:nth-child(1){
+  font-family: Magmawave Caps;
+  font-weight: bold;
+  font-size: 25px;
+  color: #3d3d3e;
+  width: 40%;
+  text-align: center;
+  margin: 10px;
+
+}
+
+.s-heading p:nth-child(2){
+  font-family: myriad pro;
+  font-size: 14px;
+  color: #9f9e9e;
+  margin-top: 0px;
+}
+
+.s-heading{
+  margin: 30px 0px 30px 0px;
 }
