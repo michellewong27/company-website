@@ -193,14 +193,16 @@ nav {
   line-height: 25px;
 }
 
-.s-heading{
+.s-heading,
+.t-heading{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.s-heading p:nth-child(1){
+.s-heading p:nth-child(1),
+.t-heading p:nth-child(1){
   font-family: Magmawave Caps;
   font-weight: bold;
   font-size: 25px;
@@ -211,7 +213,8 @@ nav {
 
 }
 
-.s-heading p:nth-child(2){
+.s-heading p:nth-child(2),
+.t-heading p:nth-child(2){
   font-family: myriad pro;
   font-size: 14px;
   color: #9f9e9e;
@@ -296,4 +299,43 @@ nav {
 
 button:active{
   transform:scale(1.1);
+}
+
+.team-img{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #3d3d3e;
+  margin: 15px 0px;
+}
+
+.t-id{
+  font-family: myriad pro;
+}
+
+.t-id a{
+  font-size: 18px;
+  color: #3d3d3e;
+  font-weight: bold;
+}
+
+.t-id p{
+  font-size: 14px;
+  color: #9f9393;
+  margin: 0px;
+}
+
+.t-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.t-box{
+  margin: 0px 30px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
