@@ -307,6 +307,9 @@ button:active{
   border-radius: 50%;
   background-color: #3d3d3e;
   margin: 15px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .t-id{
@@ -338,4 +341,17 @@ button:active{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.t-img1{
+  background-image: url("images/img1.jpg");
+}
+.t-img2{
+  background-image: url("images/img2.jpg");
+}
+.t-img3{
+  background-image: url("images/img3.jpg");
+}
+.t-img4{
+  background-image: url("images/img4.jpg");
 }
