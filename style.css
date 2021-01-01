@@ -444,3 +444,59 @@ button:active{
   font-size: 14px;
   text-align: center;
 }
+
+footer {
+  background-color:#353745;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container ul{
+  font-family: calibri;
+  margin: 0px;
+  padding: 0px 20px;
+}
+
+.footer-container h1{
+  color: #9697a0;
+  font-size: 20px;
+  font-family: calibri;
+}
+
+.footer-container ul li a{
+  font-size: 16px;
+  color: #575a70;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 0px;
+  margin: 5px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.social-icons a{
+  width: 35px;
+  height: 35px;
+  margin: 0px 5px;
+  background-color: #424356;
+  box-shadow: 2px 2px 12px rgb(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons{
+  display: flex;
+}
+
+.search input{
+  height: 35px;
+  width: 200px;
+  text-align: 2px 2px 12px rgba(0,0,0,0.1);
+  border: none;
+  outline: none;
+}
