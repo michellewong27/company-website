@@ -500,3 +500,29 @@ footer {
   border: none;
   outline: none;
 }
+
+.copyright {
+  font-family: calibri;
+  font-size: 12px;
+  margin: 10px;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+.social-icons i{
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.footer-container ul li a:hover{
+  color: #9697a0;
+}
+
+.social-icons a:hover{
+  background-color: #9a9ff6;
+  transition: all ease 0.5s;
+}
+
+.social-icons a:hover i{
+  color: #424356;
+}
