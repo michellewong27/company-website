@@ -526,3 +526,26 @@ footer {
 .social-icons a:hover i{
   color: #424356;
 }
+
+@media (max-width:1024px){
+  .s-box,
+  .p-box{
+    flex-grow:1;
+    margin: 5px;
+  }
+  .p-box:nth-child(4){
+    height: 250px;
+    width: 100%;
+  }
+  .search{
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search h1{
+    margin: 20px;
+  }
+}
+
