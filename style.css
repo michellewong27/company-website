@@ -549,3 +549,82 @@ footer {
   }
 }
 
+@media(max-width:720px){
+  .menu a{
+    margin: 0px 10px;
+    font-size: 14px;
+  }
+  .sign-in{
+    height: 33px;
+    width: 80px;
+    font-size: 12px;
+  }
+  .s-box p,
+  .s-button{
+    display: none;
+  }
+  .s-box{
+    flex-direction: row;
+    width: 100%;
+    padding: 5px;
+  }
+  .s-icon{
+    height: 40px;
+    width: 40px;
+  }
+  .s-box a{
+    font-size: 16px;
+    margin: 0px 15px;
+  }
+  .team-img{
+    width: 60px;
+    height: 60px;
+  }
+  .t-box{
+    margin: 0px 10px 30px 10px;
+  }
+  .t-id a{
+    font-size:14px
+  }
+  .t-id p{
+    font-size: 12px;
+  }
+  .contact-us{
+    height: 150px;
+  }
+  .contact-us h1{
+    font-size: 18px;
+  }
+  .contact-btn {
+    height: 33px;
+    width: 120px;
+    font-size: 12px;
+  }
+  .p-box{
+    width: 80%;
+    margin: 10px;
+  }
+  .p-heading p{
+    width:80%;
+    margin: 10px;
+    text-align: center;
+  }
+  .footer-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-container ul h1{
+    font-size: 25px;
+  }
+  .footer-container ul li{
+    text-align: center;
+    margin: 10px;
+  }
+  .footer-container ul li a{
+    font-size: 20px;
+  }
+  .search{
+    display: block;
+  }
+}
